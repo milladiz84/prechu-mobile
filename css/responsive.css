@@ -1,0 +1,179 @@
+@media (max-width: 1100px){
+
+	*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s ease-in-out; /* плавность переходов для всех элементов страницы*/
+    }
+    .header, .intro, .main, .footer{
+    	width: 100%;
+    }
+   .logo{
+  	padding-left: 30px;
+	}
+
+	.ico-item1, .ico-item2, .ico-item3{
+	width: 33,3333%;
+	}
+	.main-nav{
+		margin-right: 10px;
+	}
+	.items p{
+	    margin-right: 50px;
+	    justify-content: space-between;
+	}
+	.about-intro{
+		width: 100%;
+	}
+	.img-phone img{
+  	width: 90%;
+	}
+	.arrow1{
+	display: none;
+	}
+	.arrow2{
+	display: none;
+	}
+
+}
+  
+@media (max-width: 980px){	
+	.header, .intro, .main, .footer{
+		width: 100%;
+	}
+	.text-intro{
+	top: 128px;
+	left: 406px;
+	}
+	.buttom-intro a {
+	font-size: 31px;
+	padding: 14px 14px 14px 37px;	
+	}
+	.icon-shape:before{  
+	content: '\e900';
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	left: 7px;
+	display: block;
+ 	}
+ 	.logo img{
+ 		width: 120%;
+ 		padding-left: 20px;
+   	}
+	.text-intro p {
+    font-size: 20.35px;
+    line-height: 36px;
+    padding-left: 2px;
+    padding-top: 15px;
+    padding-right: 111px;
+    padding-bottom: 34px;
+    color: #ffff;
+
+	}
+    .ico-items  {
+    	width: 33,33333%;
+    }
+}
+@media (max-width: 768px){
+
+	.text-intro {
+    top: 44px;
+    left: 330px;
+}
+
+	.img-phone img{
+  	width: 70%;
+	}
+	.main-nav
+	{
+	display: none;
+	}
+	.intro{
+	min-height: 391px;
+	}
+	
+	.nav-toggle {
+	display: block;
+	}
+	header {
+	padding: 10px 0;
+	}
+	.ico-item1{
+	background: url('../images/sprite.png') no-repeat -323px -205px;
+	width: 137px;
+	height: 136px;
+	display: block;
+	margin-bottom: 28px;
+	}
+	.ico-item1-text{
+	font-size: 20.35px;
+	display: block;
+	margin-bottom: 10px;  
+	}
+	.ico-item2{
+	background: url('../images/sprite.png') no-repeat -166px -205px;
+	width: 138px;
+	height: 139px;
+	display: block;
+	margin-bottom: 28px;
+	}
+	.ico-item3{
+	background: url('../images/sprite.png') no-repeat 0 -205px;
+	width: 147px;
+	height: 147px;
+	display: block;
+	margin-bottom: 28px;
+	}
+
+
+	/* скрываем верхнее меню, отменяем обтекание, позиционируем его, сместив на высоту шапки сайта  
+	.main-nav {
+	max-height: 0;
+	background: white;
+	float: none;
+	position: absolute;
+	overflow: hidden;
+	top: 63px;
+	right: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	z-index: 3;
+	}
+	/* делаем элементы списка блочными, чтобы они располагались друг под другом 
+	.main-nav li {
+	display: block;
+	text-align: center;
+	border-bottom: 1px solid #5094f2;
+	margin-right: 0;
+	}
+	/* отменяем обтекание левой и правой колонок, устанавливаем им ширину 100%*
+	width: 100%;
+	float: none;
+	}
+	.widget-post-title {
+	font-size: 1.5em;
+	}
+}
+							/* end top-menu
+
+@media (max-width: 640px){
+
+	.intro{
+	 min-height: 247px;
+	}
+
+	.buttom-intro{
+		font-size: 31px;
+	}
+	.buttom-intro a:before {
+		width: 33px;
+		height: 33px;
+	}
+}
+
+@media (max-width: 320px){
+
+}
