@@ -9,14 +9,21 @@ src: local('Segoe WP N'), url('SegoeWPN.woff') format('woff');
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?sgahwz');
-  src:  url('fonts/icomoon.eot?sgahwz#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?sgahwz') format('truetype'),
-    url('fonts/icomoon.woff?sgahwz') format('woff'),
-    url('fonts/icomoon.svg?sgahwz#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?sgahwz');
+  src:  url('../fonts/icomoon.eot?sgahwz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?sgahwz') format('woff'),
+    url('../fonts/icomoon.svg?sgahwz#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
+}
+@font-face {
+  font-family: "SegoeWP-Light";
+
+  src: url("../fonts/segoe-wp-light.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/segoe-wp-light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
