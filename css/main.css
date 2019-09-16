@@ -101,7 +101,7 @@ outline: none;
 .burger-menu_nav{
   position: fixed;
   padding-top: 80px;
-  width: 30%;
+  width: 55%;
   height: 100%;
   z-index: 20;
   display: flex;
@@ -116,7 +116,7 @@ outline: none;
 }
 .burger-menu_link{
   padding: 30px;
-  font-family: "Segoe WP N" sans-serif;
+  font-family: "Segoe WP N", sans-serif;
   line-height: 64px;
   font-size: 22px;
   color: #fff;
@@ -282,7 +282,7 @@ outline: none;
 }
 footer{
   height: 94px;
-  background: #ffffff;
+  background: #ffffff;  
 }
 .footer{
   width: 973px;
@@ -292,9 +292,8 @@ footer{
   padding-top: 35px;
   padding-bottom: 44px;
   font-size: 15.35px;
-  color: #909090;
-  border-top: 1px solid #cccccc;
-}*
+  color: #909090;  
+}
 .footer a{
   text-decoration: none;
   color: #909090;

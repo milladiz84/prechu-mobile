@@ -1,21 +1,18 @@
-@media (max-width: 1100px){
+@media (max-width: 1200px){
 
 	*, *:after, *:before {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    transition: .5s ease-in-out; /* плавность переходов для всех элементов страницы*/
+    transition: .5s ease-in-out; 
     }
     .header, .intro, .main, .footer{
     width: 100%;
     font-family: "SegoeWP-Light";
     }
-   .logo{
+   	.logo{
   	padding-left: 30px;
-	}
-	.ico-item1, .ico-item2, .ico-item3{
-	width: 33,3333%;
-	}
+	}	
 	.main-nav{
 	margin-right: 10px;
 	}
@@ -35,6 +32,10 @@
 	.arrow2{
 	display: none;
 	}
+	.ico-item1-text{
+	font-family: "Segoe WP N", sans-serif;
+	}
+    
 }  
 @media (max-width: 980px){	
 	.header, .intro, .main, .footer{
@@ -46,7 +47,7 @@
 	}
 	.buttom-intro a {
 	font-size: 31.08px;
-	padding: 14px 9px 20px 55px	
+	padding: 14px 9px 20px 61px	
 	}
 	.icon-shape:before{  
 	content: '\e900';
@@ -64,9 +65,7 @@
     line-height: 36px;
     padding-right: 111px;
 	}
-    .ico-items  {
-    width: 33,33333%;
-    }
+
 }
 @media (max-width: 768px){
 	.burger-menu{
@@ -116,6 +115,9 @@
 	margin-bottom: 28px;
 	}	
 @media (max-width: 640px){
+	.header{
+		display: block;
+	}
 	.intro{
 	margin-bottom: 17px;
 	}
@@ -126,7 +128,7 @@
   	display: block;
   	width: 100%;
   	border-bottom: 1px solid #cccccc;
-  	padding: 22px 50px 22px 0;
+  	padding: 22px 50px 22px 22px;
   	}
   	.ico-items-responsive{
   	display: flex;
@@ -166,7 +168,7 @@
 	min-height: 247px;
 	}
 	.logo img{
-	width: 208px;
+	width: 229px;
 	margin-left: -17px;
 	}
 	.buttom-intro{
@@ -182,11 +184,11 @@
 	}
 	.text-intro{
 	left: 279px;
-	top: 30px;	  
+	top: 22px;	  
 	}
 	.text-intro p{
 	padding-top: 2px;
-	padding-bottom: 24px;
+	padding-bottom: 32px;
 	}
 	.text-intro span {
     font-size: 30.98px;
@@ -200,8 +202,7 @@
 	display: none;
 	}
 	.shopping-card-responsive{
-	display: block;
-	
+	display: block;	
 	}
 	.bullet-text-responsive{
 	display: block;
@@ -213,8 +214,8 @@
 	color: #909090;
 	}
 	.shopping-card-responsive{
-	margin-top: 49px; 
-	margin-bottom: 45px;
+	margin-top: 43px; 
+	margin-bottom: 15px;
 	}
 	.shopping-card-responsive img{
 	 display: block;
@@ -235,15 +236,21 @@
 	font-size: 35.35px;
 	text-align: left;
 	color: #6f7173;
-	margin-bottom: 36px;
+	margin-bottom: 16px;
 	line-height: 38px;
 	}
 	.img-shop-respon{
 	 margin-top: 19px;
 	}
 	.footer{
-		margin-top: 20px;
+	height: 84px;
+	margin-top: 20px;
+	border-top: 1px solid #cccccc;
 	}
+	.footer span{
+	display: block;
+	}
+	
 }
 @media (max-width: 624px){
 	.text-intro{
@@ -260,7 +267,6 @@
 	.text-intro p {
 	font-size: 18px;
 	line-height: 26px; 
-
 	}
 	.bullet-text-responsive{
 	display: block;
@@ -272,9 +278,8 @@
     font-size: 25.98px;
     line-height: 32px;
 	}
-	.ico-item-text-respon {
-    font-size: 28.13px;	
+	.ico-item-text-respon{
+	font-size: 28px;
 	}
-
 }
-/*/
+}
